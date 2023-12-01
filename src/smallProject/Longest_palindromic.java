@@ -22,7 +22,7 @@ public class Longest_palindromic {
 	        String longestPalindrome = "";
 	        
 	        for (String word : words) {
-	            if (isPalindrome(word) && word.length() > longestPalindrome.length()) {
+	            if (word.length() >longestPalindrome.length( )  &&  isPalindrome(word)) {
 	                longestPalindrome = word;
 	            }
 	        }
